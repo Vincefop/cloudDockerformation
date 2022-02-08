@@ -4,7 +4,7 @@ services:
 
   node:
     container_name: nodeapp
-    image: nodeapp
+    image: vincefop/nodeapp
     build:
       context: .
       dockerfile: node.dockerfile
